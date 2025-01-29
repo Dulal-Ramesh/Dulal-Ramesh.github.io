@@ -1,4 +1,4 @@
 url: "https://dulal-ramesh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Ramesh Dulal" # the name of your site, e.g. ACME Corp.
-description: "PhD Student in Economics<br>University of Oklahoma"
+description: "PhD Student in Economics<br><span style='color: #CC0000;'>University of Oklahoma</span>University of Oklahoma"
