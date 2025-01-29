@@ -21,4 +21,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/feed/'}
 
 contacts:
-  - {name: 'Ramesh Dulal', title: 'PhD Student', department: 'Economics', institution: 'University of Oklahoma', institution_address: '322 CCD1, 308 Cate Center Drive Norman, OK 73072', email: 'ramesh.dulal@ou.edu', phone: 'your_phone_number', office: 'your_office'}       
+  - {department: 'Economics', institution: 'University of Oklahoma', institution_address: '322 CCD1, 308 Cate Center Drive Norman, OK 73072', email: 'ramesh.dulal@ou.edu', phone: 'your_phone_number', office: 'your_office'}       
