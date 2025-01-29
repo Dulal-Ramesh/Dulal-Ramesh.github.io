@@ -21,8 +21,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/feed/'}
 
 contacts:
-  - {department: 'Department of Economics', 
-  institution: 'University of Oklahoma', 
-  institution_address: '322 CCD1, 308 Cate Center Drive Norman, OK 73072', 
-  email: 'ramesh.dulal@ou.edu', 
-  phone: '4053265305'}       
+  - {department: 'Department of Economics', institution: 'University of Oklahoma', institution_address: '322 CCD1, 308 Cate Center Drive Norman, OK 73072', email: 'ramesh.dulal@ou.edu', phone: '4053265305'}       
