@@ -4,11 +4,5 @@
     <p>{{ contact.institution }}</p>
     <p>{{ contact.institution_address }}</p>
     <p>Email: {{ contact.email }}</p>
-    {% if contact.phone %}
     <p>Phone: {{ contact.phone }}</p>
-    {% endif %}
-    {% if contact.office %}
-    <p>Office: {{ contact.office }}</p>
-    {% endif %}
-  {% endfor %}
 </div>
