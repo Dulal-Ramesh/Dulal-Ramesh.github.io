@@ -17,8 +17,9 @@ courses:
 
 social:
 - {icon: 'github', link: 'https://github.com/Dulal-Ramesh'}
-- {icon: 'twitter', link: 'https://x.com/home'}
+- {icon: 'x-twitter', link: 'https://x.com/home'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/feed/'}
+- {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=P6ZYvyQAAAAJ&hl=en'}
 
 contacts:
-  - {department: 'Department of Economics', institution: 'University of Oklahoma', institution_address: '322 CCD1, 308 Cate Center Drive Norman, OK 73072', email: 'ramesh.dulal@ou.edu', phone: '4053265305'}       
+  - {department: 'Department of Economics', institution: 'University of Oklahoma', institution_address: '235 CCD1, 308 Cate Center Drive Norman, OK 73072', email: 'ramesh.dulal@ou.edu', phone: '4053265305'}       
