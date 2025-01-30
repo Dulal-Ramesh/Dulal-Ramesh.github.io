@@ -14,30 +14,28 @@ body a {
 }
 
 // Add navigation hover effect
-nav {
-  a {
-    position: relative;
-    text-decoration: none;
-    
-    &::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -2px;
-      left: 0;
-      background-color: $linkColor;
-      transition: width 0.3s ease-in-out;
-    }
-    
-    &:hover::after {
-      width: 100%;
-      animation: blink 1s infinite;
-    }
+// Navigation hover effect for the specific class used in header.html
+.me-3.py-2.text-decoration-none {
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $linkColor;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  &:hover::after {
+    width: 100%;
+    animation: nav-blink 1s infinite;
   }
 }
 
-@keyframes blink {
+@keyframes nav-blink {
   0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; }
