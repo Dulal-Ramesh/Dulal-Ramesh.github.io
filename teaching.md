@@ -1,13 +1,9 @@
 ---
 layout: page
-title: "Teaching"
+title: "Courses Taught"
 permalink: /teaching/
 ---
-
-## Courses Taught
-
-{% for teaching in site.data.cv.teaching-experience %}
+{% for teaching in site.data.courses-taught %}
 - **{{ teaching.course }}** – {{ teaching.role }}, {{ teaching.year }}, {{ teaching.institution }}
 {% endfor %}
-
-I have been involved in teaching both introductory and advanced economics courses, focusing on student engagement and quantitative analysis.
+I have been involved in teaching the following courses.
