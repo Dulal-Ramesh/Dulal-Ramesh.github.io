@@ -3,14 +3,7 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+I am a Graduate Teaching Assistant in the Department of Economics at the University of Oklahoma. I hold a Master's Degree in Economics from Tribhuvan University, Nepal, where I developed a strong foundation in economic theory and quantitative methods. My academic interests lie in Development Economics and Health Economics, with a particular focus on understanding the economic factors that influence public health outcomes and development in emerging economies.
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+My research focuses on the long-term impacts of early-life shocks on human development, with a particular emphasis on how in utero exposure affects behavioral outcomes in adulthood. I am currently investigating the impacts of natural disasters on child health outcomes, with a specific focus on Nepal's 2015 earthquake. My working paper, 'Shaken to the Core: The Effect of Nepal's 2015 Earthquake on Infant Death,' which employs empirical analysis methods, has been accepted for presentation at the 2024 Annual Meeting of the Missouri Valley Economic Association in Kansas City, MO.
+Through this research, I examine how major environmental shocks affect infant mortality and early childhood development, contributing to our understanding of the relationship between natural disasters and public health outcomes in developing countries.
