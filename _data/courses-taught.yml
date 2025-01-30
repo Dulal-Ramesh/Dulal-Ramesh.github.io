@@ -2,6 +2,7 @@
   role: "Instructor"
   institution: "University of Oklahoma"
   year: "Summer 2024 & Fall 2024"
+  syllabus: "/assets/syllabus/ECON 1123: Principle of Microeconomics.pdf"
 
 - course: "ECON 1113: Principles of Macroeconomics"
   role: "Instructor"
