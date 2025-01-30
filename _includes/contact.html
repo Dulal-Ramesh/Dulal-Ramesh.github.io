@@ -1,9 +1,9 @@
 <div class="col-md-6">
   {% for contact in site.data.settings.contacts %}
-    <p style="margin-top: 0.5rem; margin-bottom: 0.5rem;">{{ contact.department }}</p>
-    <p style="margin-bottom: 0.5rem;">{{ contact.institution }}</p>
-    <p style="margin-bottom: 0.5rem;">{{ contact.institution_address }}</p>
-    <p style="margin-bottom: 0.5rem;">Email: {{ contact.email }}</p>
-    <p style="margin-bottom: 0.5rem;">Phone: {{ contact.phone }}</p>
+    <p style="margin-top: 0.5rem; margin-bottom: 0.3rem;">{{ contact.department }}</p>
+    <p style="margin-bottom: 0.3rem;">{{ contact.institution }}</p>
+    <p style="margin-bottom: 0.3rem;">{{ contact.institution_address }}</p>
+    <p style="margin-bottom: 0.3rem;">Email: {{ contact.email }}</p>
+    <p style="margin-bottom: 0.3rem;">Phone: {{ contact.phone }}</p>
   {% endfor %}
 </div>
