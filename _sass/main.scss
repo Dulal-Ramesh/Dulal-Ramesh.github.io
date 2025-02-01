@@ -53,13 +53,27 @@ img {
   height: auto;
 }
 
-// Since you already have body styles defined at the top,
-// you might want to modify the existing body block instead 
-// of creating a new one. But if you want to add media queries,
-// you can add them at the bottom:
 
 @media screen and (max-width: 768px) {
   body {
     font-size: 14px;
   }
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.content {
+  margin: 40px 0;
+  line-height: 1.6;
+}
+
+// Remove the old .container styles if they're not being used elsewhere
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
 }
