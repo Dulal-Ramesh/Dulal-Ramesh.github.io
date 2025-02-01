@@ -39,3 +39,27 @@ body a {
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Since you already have body styles defined at the top,
+// you might want to modify the existing body block instead 
+// of creating a new one. But if you want to add media queries,
+// you can add them at the bottom:
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
