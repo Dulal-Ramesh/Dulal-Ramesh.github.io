@@ -3,7 +3,7 @@
     <p style="margin-top: 0.5rem; margin-bottom: 0.3rem;">{{ contact.department }}</p>
     <p style="margin-bottom: 0.3rem;">{{ contact.institution }}</p>
     <p style="margin-bottom: 0.3rem; white-space: nowrap;">{{ contact.institution_address }}</p>
-    <p style="margin-bottom: 0.3rem;">Email: <a href="mailto:{{ contact.email }}" style="color: blue; text-decoration: none ;">{{ contact.email }}</a></p>
+    <p style="margin-bottom: 0.3rem;">Email: <a href="mailto:{{ contact.email }}" style="color: blue !important; text-decoration: none !important;">{{ contact.email }}</a></p>
     <p style="margin-bottom: 0.3rem;">Phone: {{ contact.phone }}</p>
   {% endfor %}
 </div>
