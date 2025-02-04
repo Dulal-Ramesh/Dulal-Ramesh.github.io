@@ -63,17 +63,18 @@ img {
 .wrapper {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .content {
-  margin: 40px 0;
+  margin: 20px 0;
   line-height: 1.6;
 }
 
-// Remove the old .container styles if they're not being used elsewhere
+
 .container {
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
+  padding-top: 10px;
 }
