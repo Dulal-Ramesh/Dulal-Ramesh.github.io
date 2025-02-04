@@ -1,6 +1,7 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: "Caladea", Georgia, serif;
+$headingFont: "Playfair Display", serif;
 $linkColor: #212529 !important;
 
 body {
@@ -8,6 +9,11 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headingFont;
+}
+
 
 body a {
   color: $linkColor
