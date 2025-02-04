@@ -72,10 +72,11 @@ img {
 }
 
 h3.fw-bold {
-  margin-top: 5px;   // Ensure there's no extra space above
-  padding-top: 0px;  // Remove padding if any
+  margin-top: 10px;   // Ensure there's no extra space above
+  padding-bottom: 5px;  // Remove padding if any
+  border-bottom: 2px solid #ddd;
 }
 
 .row {
-  margin-top: -10px; // Fine-tune this value to adjust the gap
+  margin-top: -15px; // Fine-tune this value to adjust the gap
 }
