@@ -41,7 +41,7 @@ body a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
@@ -71,19 +71,11 @@ img {
   line-height: 1.6;
 }
 
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  width: 100%;
-  padding-top: 10px;
-}
-
 h3.fw-bold {
-  margin-top: 0px;   // Ensure there's no extra space above
+  margin-top: 5px;   // Ensure there's no extra space above
   padding-top: 0px;  // Remove padding if any
 }
 
-.row.g-5 {
-  margin-top: -40px;  // Adjust this value until the gap is reduced
+.row {
+  margin-top: -10px; // Fine-tune this value to adjust the gap
 }
