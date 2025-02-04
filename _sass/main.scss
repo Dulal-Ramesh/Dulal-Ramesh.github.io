@@ -78,3 +78,12 @@ img {
   width: 100%;
   padding-top: 10px;
 }
+
+h3.fw-bold {
+  margin-top: 0px;   // Ensure there's no extra space above
+  padding-top: 0px;  // Remove padding if any
+}
+
+.row.g-5 {
+  margin-top: -20px;  // Adjust this value until the gap is reduced
+}
