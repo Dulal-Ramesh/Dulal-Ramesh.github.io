@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: research
 title: "Research"
 permalink: /research/
 ---
