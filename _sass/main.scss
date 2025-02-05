@@ -89,3 +89,12 @@ h3.fw-bold {
 .row {
   margin-top: 30px; // Fine-tune this value to adjust the gap
 }
+
+p.fw-bold {
+  margin-bottom: 0.2rem; // Reduce space below title
+}
+
+p {
+  margin-top: 0rem;  // Remove extra space above description
+  margin-bottom: 0.8rem; // Adjust as needed
+}
