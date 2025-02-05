@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-2 mb-2">
+  <div>
+    <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 5px; margin-bottom: 20px;">
+      <h3 class="fw-bold">Research</h3>
+    </div>
+
+    <!-- Work in Progress Section -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Work in Progress</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.work_in_progress %}
+          <p class="fw-bold">{{ section.title }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Publications Section -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Publications</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.publication %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p><i>{{ section.journal }}</i>, {{ section.year }}, Vol. {{ section.volume }}, No. {{ section.number }}, pp. {{ section.pages }}</p>
+          <p><a href="{{ section.link }}" target="_blank">📄 View Paper</a></p>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</div>
