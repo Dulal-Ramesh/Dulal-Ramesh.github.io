@@ -20,7 +20,7 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
           <p class="fw-bold" style="margin-bottom: 0;">{{ section.title }}</p>
-          <p style="margin-top: 0.25rem;">{{ section.description }}</p>
+          <p style="margin-top: 0.05rem;">{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
@@ -31,8 +31,8 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.teaching-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p class="fw-bold" style="margin-bottom: 0;">{{ section.title }}</p>
+          <p style="margin-top: 0.05rem;">{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
