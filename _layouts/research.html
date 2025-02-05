@@ -18,7 +18,8 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.research.work_in_progress %}
           <p class="fw-bold">{{ section.title }}</p>
-        {% endfor %}
+          <p>{{ section.abstract }}
+    {% endfor %}
       </div>
     </div>
 
@@ -30,9 +31,9 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.research.publication %}
           <p class="fw-bold">{{ section.title }}</p>
-          <p><i>{{ section.journal }}</i>, {{ section.year }}, Vol. {{ section.volume }}, No. {{ section.number }}, pp. {{ section.pages }}</p>
-          <p><a href="{{ section.link }}" target="_blank">📄 View Paper</a></p>
-        {% endfor %}
+          <p><i>{{ section.journal }}</i>{% if section.year %}, {{ section.year }}{% endif %}{% if section.volume %}, Vol. {{ section.volume }}{% endif %}{% if section.number %}, No. {{ section.number }}{% endif %}{% if section.pages %}, pp. {{ section.pages }}{% endif %}</p>
+      {% if section.link %}<p><a href="{{ section.link }}" target="_blank">📄 View Paper</a></p>
+    {% endfor %}
       </div>
     </div>
 
