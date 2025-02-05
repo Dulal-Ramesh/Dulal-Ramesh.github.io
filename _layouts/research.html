@@ -16,7 +16,7 @@ layout: default
         <h4>Work in Progress</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.work_in_progress %}
+        {% for section in site.data.research.work_in_progress %}
           <p class="fw-bold">{{ section.title }}</p>
         {% endfor %}
       </div>
@@ -28,7 +28,7 @@ layout: default
         <h4>Publications</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.publication %}
+        {% for section in site.data.research.publication %}
           <p class="fw-bold">{{ section.title }}</p>
           <p><i>{{ section.journal }}</i>, {{ section.year }}, Vol. {{ section.volume }}, No. {{ section.number }}, pp. {{ section.pages }}</p>
           <p><a href="{{ section.link }}" target="_blank">📄 View Paper</a></p>
