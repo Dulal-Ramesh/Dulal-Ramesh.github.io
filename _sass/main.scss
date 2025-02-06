@@ -102,8 +102,13 @@ h3.fw-bold {
   line-height: 1.2 !important; /* Adjust this value to fine-tune spacing */
 }
 
-.cv-entry p {
-  margin-top: 0.1rem !important;
+.cv-entry  {
   margin-bottom: 0.1rem !important;
-  line-height: 1.1 !important; /* Reduce line spacing */
+p.fw-bold {
+  margin-bottom: 0 !important;
 }
+p:not(.fw-bold) {
+  margin-top: 0 !important;
+}
+}
+
