@@ -14,11 +14,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headingFont;
 }
 
-.cv-section p {
-  margin-top: 0.1rem !important;
-  margin-bottom: 0.1rem !important;
-}
-
 body a {
   color: $linkColor
 }
@@ -63,7 +58,6 @@ img {
   height: auto;
 }
 
-
 @media screen and (max-width: 768px) {
   body {
     font-size: 14px;
@@ -82,45 +76,52 @@ img {
 }
 
 h3.fw-bold {
-  margin-top: 10px;   // Ensure there's no extra space above
-  padding-bottom: 5px;  // Remove padding if any
+  margin-top: 10px;
+  padding-bottom: 5px;
   border-bottom: 2px solid #ddd;
 }
 
-.col-md-6 img{
+.col-md-6 img {
   margin-top: 70px;
 }
+
 .row {
-  margin-top: 30px; // Fine-tune this value to adjust the gap
+  margin-top: 30px;
 }
 
-.cv-section p {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  line-height: 1.2 !important; /* Adjust this value to fine-tune spacing */
+// Combined CV section styles
+.cv-section {
+  p {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.1 !important;
+  }
 }
 
 .cv-entry {
   p.fw-bold {
-    margin-bottom: 0 !important;
-    line-height: 1 !important;
+    margin: 0 !important;
+    line-height: 1.1 !important;
   }
   
   p:not(.fw-bold) {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    line-height: 1 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.1 !important;
+  }
+  
+  & + & {
+    margin-top: 1rem;
   }
 }
 
-// Override Bootstrap's default paragraph margins
-.col-md-10 p {
-  margin-bottom: 0 !important;
-}
-
-// Add appropriate spacing between different education entries
-.cv-entry + .cv-entry {
-  margin-top: 1rem;
+// Override Bootstrap's default spacing
+.col-md-10 {
+  .cv-entry {
+    margin-bottom: 1rem;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
