@@ -5,3 +5,6 @@ description: "PhD Student in Economics"
 sass:
   sass_dir: _sass
   style: compressed
+collections:
+  cv:
+    output: true
