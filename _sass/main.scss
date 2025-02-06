@@ -103,16 +103,24 @@ h3.fw-bold {
 }
 
 .cv-entry {
-  display: flex;
-  flex-direction: column;
-  gap: 0;  // Remove gap between title and description
-  
-  p {
-    margin: 0 !important;  // Remove all margins
-    padding: 0 !important; // Remove all padding
+  p.fw-bold {
+    margin-bottom: 0 !important;
+    line-height: 1 !important;
   }
   
-  & + .cv-entry {
-    margin-top: 1rem;  // Add space between different education entries
+  p:not(.fw-bold) {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    line-height: 1 !important;
   }
+}
+
+// Override Bootstrap's default paragraph margins
+.col-md-10 p {
+  margin-bottom: 0 !important;
+}
+
+// Add appropriate spacing between different education entries
+.cv-entry + .cv-entry {
+  margin-top: 1rem;
 }
