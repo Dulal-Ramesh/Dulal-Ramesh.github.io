@@ -17,8 +17,10 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.research.work_in_progress %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.abstract }}</p>
+        <div class="research-entry">  
+        <p class="fw-bold mb-2">{{ section.title }}</p>
+          <p class="mb-4">{{ section.abstract }}</p>
+        </div>
     {% endfor %}
       </div>
     </div>
@@ -30,12 +32,15 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.research.publication %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p><i>{{ section.journal }}</i>{% if section.year %}, {{ section.year }}{% endif %}{% if section.volume %}, Vol. {{ section.volume }}{% endif %}{% if section.number %}, No. {{ section.number }}{% endif %}{% if section.pages %}, pp. {{ section.pages }}{% endif %}</p>
-      {% if section.link %}<p><a href="{{ section.link }}" target="_blank">📄 View Paper</a></p>
-    {% endfor %}
+        <div class="research-entry">
+          <p class="fw-bold mb-2">{{ section.title }}</p>
+          <p class="mb-2"><i>{{ section.journal }}</i>{% if section.year %}, {{ section.year }}{% endif %}{% if section.volume %}, Vol. {{ section.volume }}{% endif %}{% if section.number %}, No. {{ section.number }}{% endif %}{% if section.pages %}, pp. {{ section.pages }}{% endif %}</p>
+          {% if section.link %}
+          <p class="mb-4"><a href="{{ section.link }}" target="_blank">📄 View Paper</a></p>
+          {% endif %}
+        </div>
+        {% endfor %}
       </div>
     </div>
-
   </div>
 </div>

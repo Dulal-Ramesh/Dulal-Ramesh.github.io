@@ -125,3 +125,23 @@ h3.fw-bold {
     }
   }
 }
+
+.research-entry {
+  margin-bottom: 2rem;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+  
+  p {
+    margin-bottom: 0.5rem;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.row.g-5 {
+  --bs-gutter-y: 2rem;
+}
