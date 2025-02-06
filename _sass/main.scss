@@ -102,13 +102,17 @@ h3.fw-bold {
   line-height: 1.2 !important; /* Adjust this value to fine-tune spacing */
 }
 
-.cv-entry  {
-  margin-bottom: 0.1rem !important;
-p.fw-bold {
-  margin-bottom: 0 !important;
+.cv-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 0;  // Remove gap between title and description
+  
+  p {
+    margin: 0 !important;  // Remove all margins
+    padding: 0 !important; // Remove all padding
+  }
+  
+  & + .cv-entry {
+    margin-top: 1rem;  // Add space between different education entries
+  }
 }
-p:not(.fw-bold) {
-  margin-top: 0 !important;
-}
-}
-
