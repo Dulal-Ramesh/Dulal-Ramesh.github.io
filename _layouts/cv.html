@@ -13,32 +13,35 @@ layout: default
       </a>
   </div>
 
-    <div class="row g-5 cv-section">
-      <div class="col-md-2">
-        <h4>Education</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.education %}
-        <div class="cv-entry">
-        <p class="fw-bold">{{ section.title }}</p>
-        <p >{{ section.description }}</p>
+
+  <!-- Education Section -->
+  <div class="row g-5 mb-5">
+    <div class="col-md-2">
+      <h4>Education</h4>
+    </div>
+    <div class="col-md-10">
+      {% for section in site.data.cv.education %}
+      <div class="cv-entry">
+        <p class="fw-bold mb-1">{{ section.title }}</p>
+        <p class="mb-3">{{ section.description }}</p>
       </div>
       {% endfor %}
-      </div>
-    </div>
-
-    <div class="row g-5 cv-section ">
-      <div class="col-md-2">
-        <h4>Academic Experience</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.teaching-experience %}
-        <div class="cv-entry">
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        </div>
-        {% endfor %}
-      </div>
     </div>
   </div>
+
+  <!-- Academic Experience Section -->
+  <div class="row g-5 mb-5">
+    <div class="col-md-2">
+      <h4>Academic Experience</h4>
+    </div>
+    <div class="col-md-10">
+      {% for section in site.data.cv.teaching-experience %}
+      <div class="cv-entry">
+        <p class="fw-bold mb-1">{{ section.title }}</p>
+        <p class="mb-3">{{ section.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 </div>

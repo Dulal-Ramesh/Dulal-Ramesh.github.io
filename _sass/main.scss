@@ -89,39 +89,19 @@ h3.fw-bold {
   margin-top: 30px;
 }
 
-// Combined CV section styles
-.cv-section {
-  p {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1.1 !important;
-  }
-}
-
 .cv-entry {
-  p.fw-bold {
-    margin: 0 !important;
-    line-height: 1.1 !important;
+  margin-bottom: 1.5rem;
+  
+  &:last-child {
+    margin-bottom: 0;
   }
   
-  p:not(.fw-bold) {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1.1 !important;
-  }
-  
-  & + & {
-    margin-top: 1rem;
-  }
-}
-
-// Override Bootstrap's default spacing
-.col-md-10 {
-  .cv-entry {
-    margin-bottom: 1rem;
+  p {
+    margin: 0;
+    line-height: 1.2;
     
-    &:last-child {
-      margin-bottom: 0;
+    &.fw-bold {
+      margin-bottom: 0.25rem;
     }
   }
 }
@@ -144,4 +124,9 @@ h3.fw-bold {
 
 .row.g-5 {
   --bs-gutter-y: 2rem;
+}
+
+// Override Bootstrap's default margins
+.col-md-10 p {
+  margin-bottom: 0;
 }
