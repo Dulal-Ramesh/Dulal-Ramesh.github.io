@@ -6,7 +6,7 @@ permalink: /personal/
 
 ## Conferences Attended & Presentations
 
-<ul>
+<ul class = "conf-list">
 {% assign confs = site.data.research.conferences | sort: "date" | reverse %}
 {% for c in confs %}
   <li>
