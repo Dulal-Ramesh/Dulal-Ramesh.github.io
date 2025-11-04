@@ -1,9 +1,9 @@
 menu:
 - {name: 'Home', url: '/'}
-- {name: 'Research', url: '/research'}
-- {name: 'Teaching', url: '/teaching'}
-- {name: 'CV', url: '/cv'}
-- {name: 'Personal', url: '/personal'}
+- {name: 'Research', url: '/research/'}
+- {name: 'Teaching', url: '/teaching/'}
+- {name: 'CV', url: '/cv/'}
+- {name: 'Personal', url: '/personal/'}
 
 social:
 - {icon: 'github', link: 'https://github.com/Dulal-Ramesh'}
