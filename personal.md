@@ -13,8 +13,10 @@ permalink: /personal/
     <strong>{{ c.date | date: "%b %Y" }}</strong> —
     <em>{{ c.title }}</em>{% if c.name %} — {{ c.name }}{% endif %}
     {% if c.location %}, {{ c.location }}{% endif %}
+    {% comment %}
     {% if c.link %} [<a href="{{ c.link }}" target="_blank" rel="noopener">program</a>]{% endif %}
     {% if c.slides %} [<a href="{{ c.slides }}">slides</a>]{% endif %}
+    {% endcomment %}
   </li>
 {% endfor %}
 </ul>
