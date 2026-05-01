@@ -7,9 +7,9 @@ layout: default
       <h3 class="fw-bold border-bottom pb-2 mt-0 mb-3">About Me</h3>
     {{ content }}
   </div>
-  <div class="col-md-6 ps-5" style="margin-top: 60px;">
-    <img src="{{ site.github.url }}/assets/img/profile.jpg" alt="My Profile Picture" width="60%" style="border-radius: 10px; display: block; margin: 0 auto; margin-top: 4rem margin-bottom: 2rem;">
-    <div style="clear: both; margin-top: 4rem;">
+  <div class="col-md-6 home-sidebar">
+    <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Ramesh Dulal profile photo" class="profile-photo">
+    <div class="home-contact">
       <h3 class="fw-bold border-bottom pb-2 mb-2">Contact</h3>
       {% include contact.html %}
     </div>

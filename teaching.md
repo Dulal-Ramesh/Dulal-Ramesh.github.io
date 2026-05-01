@@ -8,6 +8,6 @@ I have been involved in teaching the following courses.
 - **{{ teaching.course }}** – {{ teaching.role }}, {{ teaching.year }}, {{ teaching.institution }}
 {% if teaching.syllabus %}
 <br>
-<span style="margin-top: -20px; display: block; margin-left: 35px;">📄 <a href="{{ teaching.syllabus }}" target="_blank">Please find the Syllabus here</a></span>
+<span class="teaching-syllabus-link"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> <a href="{{ teaching.syllabus | relative_url }}" target="_blank" rel="noopener">Please find the syllabus here</a></span>
   {% endif %}
 {% endfor %}

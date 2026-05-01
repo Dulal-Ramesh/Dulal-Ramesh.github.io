@@ -2,7 +2,7 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: "Libre Baskerville", serif;
 $headingFont: "Playfair Display", serif;
-$linkColor: blue !important;
+$linkColor: #0d6efd;
 
 body {
   background: $backgroundColor;
@@ -15,11 +15,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body a {
-  color: $linkColor
+  color: $linkColor;
 }
 
-// Add navigation hover effect
-.me-3.py-2.text-decoration-none {
+.site-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.site-nav-link {
   position: relative;
   
   &::after {
@@ -30,27 +37,12 @@ body a {
     bottom: 0;
     left: 0;
     background-color: $linkColor;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.2s ease-in-out;
   }
   
   &:hover::after {
     width: 100%;
-    animation: nav-blink 1s infinite;
   }
-}
-
-@keyframes nav-blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.container {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 0 20px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 img {
@@ -73,6 +65,28 @@ img {
 .content {
   margin: 20px 0;
   line-height: 1.6;
+}
+
+.home-copy {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.home-sidebar {
+  margin-top: 60px;
+  padding-left: 3rem;
+}
+
+.profile-photo {
+  border-radius: 10px;
+  display: block;
+  margin: 4rem auto 2rem;
+  width: 60%;
+}
+
+.home-contact {
+  clear: both;
+  margin-top: 4rem;
 }
 
 h3.fw-bold {
@@ -106,6 +120,41 @@ h3.fw-bold {
   }
 }
 
+.section-heading-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.cv-download-link {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+
+.contact-details {
+  max-width: 100%;
+
+  p {
+    margin-bottom: 0.3rem;
+  }
+
+  p:first-child {
+    margin-top: 0.5rem;
+  }
+}
+
+.teaching-syllabus-link {
+  display: block;
+  margin-left: 35px;
+  margin-top: -20px;
+}
+
 .research-entry {
   margin-bottom: 1.8rem;
   
@@ -134,4 +183,36 @@ h3.fw-bold {
 .conf-list li{
   line-height: 2;
   margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .site-container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .home-sidebar {
+    margin-top: 1rem;
+    padding-left: 0;
+  }
+
+  .profile-photo {
+    margin-top: 1rem;
+    width: 75%;
+  }
+
+  .home-contact {
+    margin-top: 2rem;
+  }
+
+  .section-heading-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .teaching-syllabus-link {
+    margin-left: 0;
+    margin-top: 0.25rem;
+  }
 }
